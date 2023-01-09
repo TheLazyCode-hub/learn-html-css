@@ -1,0 +1,31 @@
+/* For the whole document */
+*{
+    font-size: 15px;
+    font-family:  'Courier New', Courier, monospace;
+}
+
+/* For the body or like this one can include any tag of the document */
+body{
+    background-color: bisque;
+}
+header{
+    background-color: rgb(158, 140, 105);
+}
+.border{
+    background-color: crimson;
+    height: 150px;
+    width: 600px;
+    word-wrap: normal;
+    border-color:black;
+    border-style: dashed;
+    border-radius: 2em;
+}
+.border-top{
+    background-color: rgb(31, 120, 179);
+    height: 150px;
+    width: 600px;
+    word-wrap: normal;
+    border-color:black;
+    border-style: dashed;
+    border-radius: 2em;
+}

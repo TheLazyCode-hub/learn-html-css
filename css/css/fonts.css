@@ -1,0 +1,36 @@
+/* For the whole document */
+*{
+    font-size: 25px;
+    font-family:  'Courier New', Courier, monospace;
+}
+
+/* For the body or like this one can include any tag of the document */
+body{
+    background-color: bisque;
+}
+header{
+    background-color: rgb(158, 140, 105);
+}
+
+.fonts{
+    color: brown;
+}
+h4{
+    color: rgb(104, 10, 29);
+}
+.description{
+    /* background-color: rgb(95, 95, 95); */
+    margin-top: 10px;
+}
+.description .websafe{
+    /* background-color: rgba(158, 155, 155, 0.336); */
+    line-height: 0px;
+}
+.description .webfonts{
+    /* background-color: teal; */
+    line-height: 0px;
+}
+
+.fonts-desc{
+    line-height: 0px;
+}

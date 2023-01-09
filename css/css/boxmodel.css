@@ -1,0 +1,46 @@
+/* For the whole document */
+*{
+    font-size: 15px;
+    font-family:  'Courier New', Courier, monospace;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+/* For the body or like this one can include any tag of the document */
+body{
+    background-color: bisque;
+}
+header{
+    background-color: rgb(158, 140, 105);
+}
+/* main{
+    height: 150px;
+    width: fit-content;
+} */
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    margin-bottom: 0px;
+}
+.padding-ex{
+    background-color: blueviolet;
+    border-radius: 2em;
+    padding: 10px;
+    border: 5px;
+    border-style: dotted;
+}
+
+.margin-ex{
+    background-color: yellowgreen;
+    border-radius: 2em;
+    margin: 10px 10px 10px 30px;
+}
+.mix-ex{
+    background-color: steelblue;
+    border-radius: 2em;
+    padding: 15px;
+    margin: 10px 60px;
+}

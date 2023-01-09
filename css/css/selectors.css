@@ -1,0 +1,40 @@
+/* For the whole document */
+*{
+    font-size: 25px;
+}
+/* For the body or like this one can include any tag of the document */
+body{
+    background-color: bisque;
+}
+
+/* selecting the id's */
+#content{
+    background-color: rgb(138, 201, 38);
+}
+
+/* selecting the classes */
+.ids{
+    color: teal;
+}
+
+/* group selection */
+h1, h2{
+    color: chocolate;
+    border-bottom: 1px solid;
+}
+
+.classes{
+    color: blueviolet;
+}
+
+.group, .global{
+    color: rgb(38, 131, 15);
+}
+
+span{
+    font-weight: normal;
+}
+
+ol{
+    background-color: thistle;
+}
